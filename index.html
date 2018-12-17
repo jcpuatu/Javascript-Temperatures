@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta charset="utf-8">
+  <title>TEST IV</title>
+<form>
+
+<button onclick="CToF()">C to F</button>
+<button onclick="FToC()">F to C</button>
+    
+</form>
+ <script>
+function CToF() 
+{
+    input = prompt("Please enter a value"); 
+    var cToFahr = input * 9 / 5 + 32;
+        alert("The result is "+cToFahr);    
+}
+
+function FToC() 
+{
+    input = prompt("Please enter a value"); 
+    var fToCel = (input - 32) * 5 / 9; 
+        alert("The result is "+fToCel);
+}
+</script>    
+
+</head>
+<body>
+   
+</body>
+</html>
